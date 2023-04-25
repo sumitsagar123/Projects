@@ -100,11 +100,13 @@ const Menu = styled.div`
   align-items: center;
   flex: 1;
   a {
-    font-weight: 600;
+    font-weight: 400;
     font-size:12px
     text-transform: uppercase;
     padding: 0 10px;
     flex-wrap: nowrap;
+    color:black;
+    text-decoration: none;
   }
   a:hover{
     background-color:rgb(142,169,191);
@@ -119,6 +121,8 @@ const RightMenu = styled.div`
     font-weight: 500;
     // text-transform: uppercase;
     margin-right: 10px;
+    color:black;
+    text-decoration: none;
   }
   a:hover {
     background-color: rgb(142, 169, 191);
